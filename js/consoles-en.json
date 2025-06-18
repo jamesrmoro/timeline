@@ -1,0 +1,98 @@
+[
+  {
+    "year": "1972",
+    "title": "Magnavox Odyssey",
+    "description": "The first home video game console in history. Used printed circuit cards to simulate games.",
+    "image": "magnavox-odyssey.jpg"
+  },
+  {
+    "year": "1975",
+    "title": "Odyssey 100",
+    "description": "Successor model of the Magnavox with built-in games and simple black-and-white graphics. Helped popularize consoles in American homes.",
+    "image": "odyssey-100.jpg"
+  },
+  {
+    "year": "1975",
+    "title": "Pong",
+    "description": "Inspired by table tennis, Pong was a huge success in arcades and spawned many home versions.",
+    "image": "pong.jpg"
+  },
+  {
+    "year": "1976",
+    "title": "Channel F",
+    "description": "Created by Fairchild, it was the first console with interchangeable ROM cartridges and its own microprocessor.",
+    "image": "channel-f.jpg"
+  },
+  {
+    "year": "1976",
+    "title": "TV Fun (Model 401)",
+    "description": "Coleco’s console focused on Pong-style games, offering various built-in sports mode variations.",
+    "image": "tv-fun-modelo-401.jpg"
+  },
+  {
+    "year": "1977",
+    "title": "Atari VCS",
+    "description": "Released as the Atari Video Computer System, it was the first widely popular console with interchangeable cartridges, becoming a landmark of the classic video game era.",
+    "image": "atari-vcs.jpg"
+  },
+  {
+    "year": "1977",
+    "title": "Color TV Game 6",
+    "description": "Nintendo’s first console, with six built-in Pong game variations. Marked the company’s entry into the home gaming market.",
+    "image": "color-tv-game-6.jpg"
+  },
+  {
+    "year": "1977",
+    "title": "RCA Studio II",
+    "description": "One of the first consoles to use interchangeable cartridges. Despite black-and-white graphics and built-in controls, it helped shape the early second generation.",
+    "image": "rca-studio-2.jpg"
+  },
+  {
+    "year": "1978",
+    "title": "APF-MP 1000",
+    "description": "8-bit console from APF with cartridges and color graphics. Tried to compete with the Atari 2600 but had limited market impact.",
+    "image": "apf-mp1000.jpg"
+  },
+  {
+    "year": "1978",
+    "title": "Bally Astrocade",
+    "description": "Known for its advanced graphics for the time and built-in keyboard, the Astrocade offered cartridge games and BASIC programming.",
+    "image": "bally-astrocade.jpg"
+  },
+  {
+    "year": "1978",
+    "title": "Interton VC 4000",
+    "description": "Second-generation German console with interchangeable cartridges and color graphics. Had its own game lineup and inspired many European clones.",
+    "image": "interton-vc4000.jpg"
+  },
+  {
+    "year": "1978",
+    "title": "Odyssey 2",
+    "description": "Successor to the Magnavox Odyssey, it combined cartridge games, a built-in keyboard, and educational titles. Competed directly with the Atari 2600.",
+    "image": "odyssey-2.jpg"
+  },
+  {
+    "year": "1978",
+    "title": "Telstar Colortron",
+    "description": "Part of Coleco’s Telstar series, the Colortron featured Pong-style variations with color graphics and analog dials. One of the last before cartridges took over.",
+    "image": "telstar-colortron.jpg"
+  },
+  {
+    "year": "1979",
+    "title": "Intellivision",
+    "description": "Released by Mattel, the Intellivision featured better graphics than the Atari 2600 and keypad controls. It pioneered sports and strategy gaming.",
+    "image": "intellivision.jpg"
+  },
+  {
+    "year": "1981",
+    "title": "Cassette Vision",
+    "description": "Developed by Epoch, it was the first Japanese console with interchangeable cartridges. It was popular in Japan until the Famicom overshadowed it.",
+    "image": "cassette-vision.jpg"
+  },
+  {
+    "year": "1981",
+    "title": "CreatiVision",
+    "description": "Developed by VTech, the CreatiVision combined console and computer features, with a built-in keyboard and cartridge games. Distributed under various names globally.",
+    "image": "creativision.jpg"
+  }
+]

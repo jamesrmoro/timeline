@@ -1,0 +1,499 @@
+[
+  {
+    "year": "1972",
+    "title": "Magnavox Odyssey",
+    "description": "O primeiro console doméstico da história dos videogames. Utilizava cartões de circuito impresso para simular jogos.",
+    "icon": "fas fa-gamepad",
+    "image": "magnavox-odyssey.jpg"
+  },
+  {
+    "year": "1975",
+    "title": "Odyssey 100",
+    "description": "Modelo sucessor da Magnavox com jogos embutidos e gráficos simples em preto e branco. Popularizou os consoles nos lares americanos.",
+    "icon": "fas fa-gamepad",
+    "image": "odyssey-100.jpg"
+  },
+  {
+    "year": "1975",
+    "title": "Pong",
+    "description": "Inspirado no tênis de mesa, Pong foi um enorme sucesso nos arcades e originou diversas versões domésticas.",
+    "icon": "fas fa-gamepad",
+    "image": "pong.jpg"
+  },
+  {
+    "year": "1976",
+    "title": "Channel F",
+    "description": "Criado pela Fairchild, foi o primeiro console com cartuchos ROM intercambiáveis e microprocessador próprio.",
+    "icon": "fas fa-gamepad",
+    "image": "channel-f.jpg"
+  },
+  {
+    "year": "1976",
+    "title": "TV Fun (Modelo 401)",
+    "description": "Console da Coleco focado em jogos estilo Pong, com diferentes modos de variações esportivas integradas.",
+    "icon": "fas fa-gamepad",
+    "image": "tv-fun-modelo-401.jpg"
+  },
+  {
+    "year": "1977",
+    "title": "Atari VCS",
+    "description": "Lançado como Atari Video Computer System, foi o primeiro console amplamente popular com cartuchos intercambiáveis, tornando-se um marco da era clássica dos videogames.",
+    "icon": "fas fa-gamepad",
+    "image": "atari-vcs.jpg"
+  },
+  {
+    "year": "1977",
+    "title": "Color TV Game 6",
+    "description": "Primeiro console lançado pela Nintendo, com seis variações do jogo Pong integradas. Marcou o início da empresa no mercado de videogames domésticos.",
+    "icon": "fas fa-gamepad",
+    "image": "color-tv-game-6.jpg"
+  },
+  {
+    "year": "1977",
+    "title": "RCA Studio II",
+    "description": "Um dos primeiros consoles a usar cartuchos intercambiáveis. Apesar dos gráficos em preto e branco e controles embutidos, ajudou a moldar os primeiros passos da 2ª geração.",
+    "icon": "fas fa-gamepad",
+    "image": "rca-studio-2.jpg"
+  },
+  {
+    "year": "1978",
+    "title": "APF-MP 1000",
+    "description": "Console de 8 bits da APF com cartuchos e gráficos coloridos. Foi uma tentativa de competir com o Atari 2600, mas teve impacto limitado no mercado.",
+    "icon": "fas fa-gamepad",
+    "image": "apf-mp1000.jpg"
+  },
+  {
+    "year": "1978",
+    "title": "Bally Astrocade",
+    "description": "Conhecido por seus gráficos avançados para a época e teclado embutido, o Astrocade oferecia jogos por cartucho e também programação em BASIC.",
+    "icon": "fas fa-gamepad",
+    "image": "bally-astrocade.jpg"
+  },
+  {
+    "year": "1978",
+    "title": "Interton VC 4000",
+    "description": "Console alemão de segunda geração com cartuchos intercambiáveis e gráficos em cores. Teve uma linha própria de jogos e inspirou vários clones europeus.",
+    "icon": "fas fa-gamepad",
+    "image": "interton-vc4000.jpg"
+  },
+  {
+    "year": "1978",
+    "title": "Odyssey 2",
+    "description": "Sucessor do Magnavox Odyssey, combinava jogos com cartuchos, teclado integrado e títulos educativos. Concorreu diretamente com o Atari 2600.",
+    "icon": "fas fa-gamepad",
+    "image": "odyssey-2.jpg"
+  },
+  {
+    "year": "1978",
+    "title": "Telstar Colortron",
+    "description": "Parte da série Telstar da Coleco, o Colortron oferecia variações de Pong com gráficos coloridos e dials analógicos. Foi um dos últimos da linha antes dos cartuchos dominarem o mercado.",
+    "icon": "fas fa-gamepad",
+    "image": "telstar-colortron.jpg"
+  },
+  {
+    "year": "1979",
+    "title": "Intellivision",
+    "description": "Lançado pela Mattel, o Intellivision trouxe gráficos superiores ao Atari 2600 e controles com teclado numérico. Foi pioneiro em jogos com elementos esportivos e estratégia.",
+    "icon": "fas fa-gamepad",
+    "image": "intellivision.jpg"
+  },
+  {
+    "year": "1981",
+    "title": "Cassette Vision",
+    "description": "Desenvolvido pela Epoch, foi o primeiro console japonês com cartuchos intercambiáveis. Fez sucesso no Japão até ser ofuscado pelo lançamento do Famicom.",
+    "icon": "fas fa-gamepad",
+    "image": "cassette-vision.jpg"
+  },
+  {
+    "year": "1981",
+    "title": "CreatiVision",
+    "description": "Desenvolvido pela VTech, o CreatiVision combinava funções de console e computador, com teclado embutido e jogos em cartucho. Foi distribuído em vários países com nomes diferentes.",
+    "icon": "fas fa-gamepad",
+    "image": "creativision.jpg"
+  },
+  {
+    "year": "1982",
+    "title": "Atari 5200",
+    "description": "Sucessor do Atari 2600, o 5200 oferecia gráficos superiores e controle analógico, mas enfrentou críticas por sua incompatibilidade com jogos antigos e controles pouco confiáveis.",
+    "icon": "fas fa-gamepad",
+    "image": "atari-5200.jpg"
+  },
+  {
+    "year": "1982",
+    "title": "ColecoVision",
+    "description": "Conhecido por seus gráficos e som avançados para a época, o ColecoVision trouxe experiências mais próximas aos arcades e lançou clássicos como Donkey Kong no console.",
+    "icon": "fas fa-gamepad",
+    "image": "colecovision.jpg"
+  },
+  {
+    "year": "1982",
+    "title": "Vectrex",
+    "description": "Console único com sua própria tela integrada em preto e branco e gráficos vetoriais. Destacou-se por sua estética de arcade e não dependia de uma TV para funcionar.",
+    "icon": "fas fa-gamepad",
+    "image": "vectrex.jpg"
+  },
+  {
+    "year": "1983",
+    "title": "Casio PV-1000",
+    "description": "Console de 8 bits lançado exclusivamente no Japão. Apesar do apoio inicial da Casio, teve vida curta e poucos jogos lançados, sendo rapidamente descontinuado.",
+    "icon": "fas fa-gamepad",
+    "image": "casio-pv1000.jpg"
+  },
+  {
+    "year": "1983",
+    "title": "Famicom",
+    "description": "Lançado pela Nintendo no Japão, o Family Computer revolucionou os consoles domésticos com cartuchos de alta qualidade e franquias icônicas. Em 1985, chegou ao ocidente como NES.",
+    "icon": "fas fa-gamepad",
+    "image": "famicom.jpg"
+  },
+  {
+    "year": "1983",
+    "title": "SG-1000",
+    "description": "Primeiro console da Sega, lançado no mesmo dia do Famicom. Apesar de discreto, foi o ponto de partida para a entrada da empresa no mercado de consoles domésticos.",
+    "icon": "fas fa-gamepad",
+    "image": "sg-1000.jpg"
+  },
+  {
+    "year": "1983",
+    "title": "Super Cassete Vision",
+    "description": "Sucessor do Cassette Vision, este console da Epoch trouxe gráficos superiores e jogos licenciados de animes, como Doraemon e Dragon Ball, conquistando fãs no Japão.",
+    "icon": "fas fa-gamepad",
+    "image": "super-cassette-vision.jpg"
+  },
+  {
+    "year": "1985",
+    "title": "Nintendo Entertainment System",
+    "description": "Responsável por ressuscitar a indústria dos videogames após o crash de 1983, o NES popularizou clássicos como Super Mario Bros. e The Legend of Zelda, definindo a era 8 bits.",
+    "icon": "fas fa-gamepad",
+    "image": "nes.jpg"
+  },
+  {
+    "year": "1985",
+    "title": "Sega Mark III",
+    "description": "Versão japonesa do futuro Master System, o Mark III representou a aposta da Sega no mercado de 8 bits, com gráficos superiores ao Famicom e foco em jogos de ação e arcade.",
+    "icon": "fas fa-gamepad",
+    "image": "sega-mark-3.jpg"
+  },
+  {
+    "year": "1986",
+    "title": "Atari 7800",
+    "description": "Sucessor do Atari 2600, trouxe retrocompatibilidade e gráficos mais avançados, tentando competir com o NES em meio à ressurgência dos consoles nos anos 80.",
+    "icon": "fas fa-gamepad",
+    "image": "atari-7800.jpg"
+  },
+  {
+    "year": "1986",
+    "title": "Master System",
+    "description": "Lançado originalmente no Japão como Sega Mark III, o Master System se tornou um dos consoles de 8 bits mais populares, especialmente no Brasil graças à Tectoy. Seus jogos clássicos incluem Alex Kidd, Sonic e Wonder Boy.",
+    "image": "master-system.jpg",
+    "icon": "fa-solid fa-gamepad"
+  },
+  {
+    "year": "1987",
+    "title": "PC Engine",
+    "description": "Desenvolvido pela NEC e Hudson Soft, o PC Engine foi um console revolucionário no Japão, com tamanho compacto e jogos em cartões HuCard. Também conhecido como TurboGrafx-16 nos EUA, foi pioneiro no uso de CD-ROM em consoles.",
+    "image": "pc-engine.jpg",
+    "icon": "fa-solid fa-gamepad"
+  },
+  {
+    "year": "1988",
+    "title": "Mega Drive",
+    "description": "Lançado pela Sega, o Mega Drive marcou a entrada da empresa na era dos 16 bits, com gráficos avançados e sons impactantes. Foi o lar de jogos icônicos como Sonic the Hedgehog e teve grande sucesso na América e Europa.",
+    "image": "mega-drive.jpg",
+    "icon": "fa-solid fa-gamepad"
+  },
+  {
+    "year": "1989",
+    "title": "Genesis",
+    "description": "Versão americana do Mega Drive, lançado pela Sega com o objetivo de competir diretamente com o NES. O Genesis ficou conhecido por seus jogos de ação rápidos, como Sonic, Streets of Rage e Altered Beast.",
+    "image": "genesis.jpg",
+    "icon": "fa-solid fa-gamepad"
+  },
+  {
+    "year": "1989",
+    "title": "Interactive Vision",
+    "description": "Um console interativo lançado pela View-Master Ideal, voltado ao público infantil. Usava fitas VHS para mesclar desenhos animados com elementos jogáveis, promovendo experiências educativas com personagens como os Muppets.",
+    "image": "interactive-vision.jpg",
+    "icon": "fa-solid fa-gamepad"
+  },
+  {
+    "year": "1989",
+    "title": "TurboGrafx-16",
+    "description": "Desenvolvido pela NEC e Hudson Soft, foi o primeiro console a usar um chip gráfico de 16 bits. Lançado como PC Engine no Japão e TurboGrafx-16 nos EUA, marcou presença com jogos em cartão e expansão para CD-ROM.",
+    "image": "turbografx-16.jpg",
+    "icon": "fa-solid fa-gamepad"
+  },
+  {
+    "year": "1990",
+    "title": "Commodore C64 GS",
+    "description": "Versão voltada para jogos do popular Commodore 64, o C64GS foi um console de cartuchos que tentou competir com os consoles da época. No entanto, teve pouco sucesso devido à sua biblioteca limitada e falta de teclado.",
+    "image": "commodore-c64-gs.jpg",
+    "icon": "fa-solid fa-gamepad"
+  },
+  {
+    "year": "1990",
+    "title": "GX4000",
+    "description": "O GX4000 foi a tentativa da Amstrad de entrar no mercado de consoles. Com design futurista e cartuchos dedicados, ele era tecnicamente similar aos computadores CPC, mas teve vida curta devido ao suporte limitado de jogos.",
+    "image": "gx4000.jpg",
+    "icon": "fa-solid fa-gamepad"
+  },
+  {
+    "year": "1990",
+    "title": "Super Famicom",
+    "description": "Lançado no Japão como sucessor do Famicom, o Super Famicom trouxe gráficos avançados em 16 bits, som estéreo e clássicos eternos como Super Mario World e The Legend of Zelda: A Link to the Past.",
+    "image": "super-famicom.jpg",
+    "icon": "fa-solid fa-gamepad"
+  },
+  {
+    "year": "1991",
+    "title": "CD-i",
+    "description": "O CD-i foi um sistema multimídia interativo da Philips que misturava jogos, vídeos educativos e filmes em CD. Apesar de sua ambição, teve recepção morna, mas ficou marcado por jogos licenciados da Nintendo com animações inusitadas.",
+    "image": "cd-i.jpg",
+    "icon": "fa-solid fa-gamepad"
+  },
+  {
+    "year": "1991",
+    "title": "Neo Geo AES",
+    "description": "O Neo Geo AES da SNK trouxe para casa a experiência dos fliperamas com gráficos e som de altíssima qualidade. Apesar do preço elevado, tornou-se símbolo de luxo entre os entusiastas de jogos de luta como King of Fighters e Metal Slug.",
+    "image": "neo-geo-aes.jpg",
+    "icon": "fa-solid fa-gamepad"
+  },
+  {
+    "year": "1991",
+    "title": "Super Nintendo",
+    "description": "Lançado em 1990, o Super Nintendo marcou a era dos 16 bits com clássicos como Mario e Zelda, gráficos avançados e sons icônicos. Seu controle inovador e chip FX revolucionaram os jogos.",
+    "image": "super-nintendo.jpg",
+    "icon": "fa-solid fa-gamepad"
+  },
+  {
+    "year": "1993",
+    "title": "3DO (Modelo FZ-1)",
+    "description": "Lançado em 1990, o Super Nintendo marcou a era dos 16 bits com clássicos como Mario e Zelda, gráficos avançados e sons icônicos. Seu controle inovador e chip FX revolucionaram os jogos.",
+    "image": "3do-fz1.jpg",
+    "icon": "fa-solid fa-gamepad"
+  },
+  {
+    "year": "1993",
+    "title": "FM Towns Marty",
+    "description": "Lançado em 1993 no Japão, o FM Towns Marty foi o primeiro console doméstico baseado em CD-ROM com arquitetura de PC. Suportava jogos do sistema FM Towns, mas teve baixa adesão devido ao alto custo e catálogo limitado.",
+    "image": "fm-towns-marty.jpg",
+    "icon": "fa-solid fa-gamepad"
+  },
+  {
+    "year": "1993",
+    "title": "Jaguar",
+    "description": "Lançado em 1993, o Atari Jaguar prometia ser o primeiro console de 64 bits, mas sua arquitetura complexa e falta de apoio de desenvolvedores resultaram em poucos jogos e fracasso comercial. É lembrado como um dos últimos consoles da Atari.",
+    "image": "jaguar.jpg",
+    "icon": "fa-solid fa-gamepad"
+  },
+  {
+    "year": "1993",
+    "title": "Laseractive",
+    "description": "Lançado em 1993 pela Pioneer, o LaserActive era um console de luxo que usava discos Laserdisc para jogos e vídeos. Com módulos adicionais, podia rodar títulos do Mega Drive e PC Engine. Caro e com poucos jogos, tornou-se um item de nicho.",
+    "image": "laseractive.jpg",
+    "icon": "fa-solid fa-gamepad"
+  },
+  {
+    "year": "1994",
+    "title": "Neo Geo CD",
+    "description": "Lançado em 1994 pela SNK, o Neo Geo CD era uma versão mais acessível do Neo Geo AES, utilizando CDs em vez de cartuchos. Apesar do preço mais baixo, sofreu com longos tempos de carregamento, o que prejudicou sua popularidade.",
+    "image": "neo-geo-cd.jpg",
+    "icon": "fa-solid fa-gamepad"
+  },
+  {
+    "year": "1994",
+    "title": "PC-FX",
+    "description": "Lançado em 1994 pela NEC, o PC-FX foi o sucessor do PC Engine. Apostava em jogos com vídeo em full motion (FMV) e estilo anime, mas não teve sucesso comercial devido à falta de títulos populares e ao foco limitado em RPGs e simuladores.",
+    "image": "pc-fx.jpg",
+    "icon": "fa-solid fa-gamepad"
+  },
+  {
+    "year": "1994",
+    "title": "Playdia",
+    "description": "Lançado em 1994 pela Bandai, o Playdia foi um console multimídia voltado ao público infantil. Apostava em jogos educativos e interativos com personagens de anime famosos, como Dragon Ball e Sailor Moon, mas teve pouco sucesso comercial.",
+    "image": "playdia.jpg",
+    "icon": "fa-solid fa-gamepad"
+  },
+  {
+    "year": "1994",
+    "title": "PlayStation",
+    "description": "Lançado em 1994 pela Sony, o PlayStation revolucionou a indústria com gráficos em 3D, CDs e uma vasta biblioteca de jogos icônicos. Tornou-se um marco na história dos videogames, popularizando franquias como Final Fantasy, Resident Evil e Gran Turismo.",
+    "image": "playstation.jpg",
+    "icon": "fa-solid fa-gamepad"
+  },
+  {
+    "year": "1994",
+    "title": "Sega Saturn (JP)",
+    "description": "Lançado no Japão em 1994, o Sega Saturn focava em jogos em 2D e posteriormente em 3D com múltiplos processadores. Apesar de forte apoio inicial e sucessos como Virtua Fighter, enfrentou dificuldades técnicas e forte concorrência do PlayStation.",
+    "image": "sega-saturn-jp.jpg",
+    "icon": "fa-solid fa-gamepad"
+  },
+  {
+    "year": "1995",
+    "title": "Loopy",
+    "description": "Lançado em 1995 pela Casio, o Loopy foi um console voltado exclusivamente para o público feminino no Japão. Seu diferencial era a impressora embutida que permitia criar adesivos com imagens dos jogos, focando em moda, design e interatividade criativa.",
+    "image": "loopy.jpg",
+    "icon": "fa-solid fa-gamepad"
+  },
+  {
+    "year": "1995",
+    "title": "Sega Saturn (US, EU)",
+    "description": "Lançado em 1995 na América do Norte e Europa, o Sega Saturn chegou com hardware avançado para a época, focado em jogos 2D e 3D. Apesar de títulos marcantes, sofreu com marketing confuso e competição acirrada do PlayStation, tendo sucesso limitado fora do Japão.",
+    "image": "sega-saturn-us-eu.jpg",
+    "icon": "fa-solid fa-gamepad"
+  },
+  {
+    "year": "1995",
+    "title": "Super A'Can",
+    "description": "Lançado exclusivamente em Taiwan em 1995, o Super A'Can foi um console de 16 bits desenvolvido pela Funtech. Apesar de ambições locais, teve poucos jogos lançados e vendas extremamente baixas, tornando-se um dos consoles mais raros e curiosos da história.",
+    "image": "super-a-can.jpg",
+    "icon": "fa-solid fa-gamepad"
+  },
+  {
+    "year": "1996",
+    "title": "Nintendo 64",
+    "description": "Lançado em 1996, o Nintendo 64 foi o primeiro console da Nintendo com gráficos 3D completos. Com clássicos como Super Mario 64 e The Legend of Zelda: Ocarina of Time, marcou uma era de inovação nos jogos em três dimensões.",
+    "image": "nintendo-64.jpg",
+    "icon": "fa-solid fa-gamepad"
+  },
+  {
+    "year": "1996",
+    "title": "Pippin",
+    "description": "Lançado em 1996, o Apple Bandai Pippin foi uma tentativa de unir computador e console. Apesar da proposta inovadora de ser um sistema multimídia interativo, teve vendas baixas e é lembrado como um fracasso comercial.",
+    "image": "pippin.jpg",
+    "icon": "fa-solid fa-gamepad"
+  },
+  {
+    "year": "1998",
+    "title": "Dreamcast",
+    "description": "Lançado em 1998 no Japão, o Dreamcast foi o último console da Sega. Marcou época com jogos inovadores, gráficos avançados e conexão online nativa, mas teve vida curta devido à concorrência intensa e decisões comerciais mal executadas.",
+    "image": "dreamcast.jpg",
+    "icon": "fa-solid fa-gamepad"
+  },
+  {
+    "year": "2000",
+    "title": "PlayStation 2",
+    "description": "Lançado em 2000, o PlayStation 2 se tornou o console mais vendido da história. Com suporte a DVD, vasta biblioteca de jogos e retrocompatibilidade com o PS1, revolucionou a indústria e marcou gerações com títulos icônicos como GTA, God of War e Shadow of the Colossus.",
+    "image": "playStation-2.jpg",
+    "icon": "fa-solid fa-gamepad"
+  },
+  {
+    "year": "2001",
+    "title": "GameCube",
+    "description": "Lançado em 2001, o Nintendo GameCube foi o primeiro console da empresa a usar discos ópticos em vez de cartuchos. Com design compacto e alça embutida, trouxe clássicos como Super Smash Bros. Melee, Metroid Prime e The Legend of Zelda: The Wind Waker.",
+    "image": "gamecube.jpg",
+    "icon": "fa-solid fa-gamepad"
+  },
+  {
+    "year": "2001",
+    "title": "Xbox",
+    "description": "Lançado em 2001, o Xbox foi o primeiro console da Microsoft, marcando sua entrada no mercado de games. Com disco rígido interno e suporte à Xbox Live, destacou-se com títulos como Halo: Combat Evolved e Project Gotham Racing.",
+    "image": "xbox.jpg",
+    "icon": "fa-solid fa-gamepad"
+  },
+  {
+    "year": "2004",
+    "title": "Xavix",
+    "description": "Lançado em 2004, o XaviXPORT era um console voltado à atividade física, usando controles com sensores de movimento embutidos, como raquetes e tacos. Foi criado por ex-funcionários da Nintendo e era focado em jogos esportivos interativos.",
+    "image": "xavix.jpg",
+    "icon": "fa-solid fa-gamepad"
+  },
+  {
+    "year": "2005",
+    "title": "Xbox 360",
+    "description": "Lançado em 2005, o Xbox 360 marcou a segunda geração da Microsoft nos videogames. Trazendo gráficos em alta definição, uma forte integração online via Xbox Live e franquias de sucesso como Halo e Gears of War, tornou-se um dos consoles mais influentes da sua era.",
+    "image": "xbox-360.jpg",
+    "icon": "fa-solid fa-gamepad"
+  },
+  {
+    "year": "2006",
+    "title": "Hyperscan",
+    "description": "Lançado em 2006 pela Mattel, o Hyperscan combinava mídia física com cartões RFID colecionáveis para destravar conteúdos nos jogos. Apesar da proposta inovadora, teve poucos títulos lançados e foi descontinuado rapidamente.",
+    "image": "hyperscan.jpg",
+    "icon": "fa-solid fa-gamepad"
+  },
+  {
+    "year": "2006",
+    "title": "Nintendo Wii",
+    "description": "Lançado em 2006, o Nintendo Wii revolucionou os videogames com seu controle sensível ao movimento, promovendo jogos mais ativos e acessíveis. Tornou-se um fenômeno mundial e conquistou públicos de todas as idades.",
+    "image": "nintendo-wii.jpg",
+    "icon": "fa-solid fa-gamepad"
+  },
+  {
+    "year": "2006",
+    "title": "Playstation 3",
+    "description": "Lançado em 2006, o Nintendo Wii revolucionou os videogames com seu controle sensível ao movimento, promovendo jogos mais ativos e acessíveis. Tornou-se um fenômeno mundial e conquistou públicos de todas as idades.",
+    "image": "playstation-3.jpg",
+    "icon": "fa-solid fa-gamepad"
+  },
+  {
+    "year": "2009",
+    "title": "Zeebo",
+    "description": "Lançado em 2009 no Brasil, o Zeebo foi um console nacional desenvolvido pela Tectoy em parceria com a Qualcomm. Sem mídia física, seus jogos eram baixados por rede 3G, visando combater a pirataria e popularizar os games em mercados emergentes.",
+    "image": "zeebo.jpg",
+    "icon": "fa-solid fa-gamepad"
+  },
+  {
+    "year": "2012",
+    "title": "Nintendo Wii u",
+    "description": "Lançado em 2012, o Wii U foi o sucessor do Wii e o primeiro console da Nintendo com suporte a HD. Tinha como diferencial o GamePad com tela sensível ao toque, permitindo jogar mesmo longe da TV. Apesar de inovador, teve vendas abaixo do esperado.",
+    "image": "nintendo-wii-u.jpg",
+    "icon": "fa-solid fa-gamepad"
+  },
+  {
+    "year": "2013",
+    "title": "Playstation 4",
+    "description": "Lançado em 2013, o PlayStation 4 trouxe gráficos poderosos, integração com redes sociais e foco em jogos digitais. Seu catálogo diversificado e suporte a desenvolvedores independentes o tornaram um dos consoles mais vendidos da história.",
+    "image": "playstation-4.jpg",
+    "icon": "fa-solid fa-gamepad"
+  },
+  {
+    "year": "2013",
+    "title": "Xbox One",
+    "description": "Lançado em 2013, o Xbox One focou em ser um centro de entretenimento completo, com suporte a TV, apps e jogos. Apesar de um início polêmico, recuperou espaço com retrocompatibilidade, Xbox Game Pass e melhorias no desempenho.",
+    "image": "xbox-one.jpg",
+    "icon": "fa-solid fa-gamepad"
+  },
+  {
+    "year": "2017",
+    "title": "Nintendo Switch",
+    "description": "Lançado em 2017, o Nintendo Switch inovou ao combinar console de mesa e portátil em um só. Com controles destacáveis (Joy-Con) e títulos de sucesso como Zelda: Breath of the Wild, tornou-se um fenômeno global.",
+    "image": "nintendo-switch.jpg",
+    "icon": "fa-solid fa-gamepad"
+  },
+  {
+    "year": "2020",
+    "title": "Playstation 5",
+    "description": "Lançado em 2020, o PlayStation 5 trouxe gráficos em 4K, SSD ultrarrápido e o inovador controle DualSense com feedback háptico. Com exclusivos como Demon's Souls e Spider-Man: Miles Morales, marcou a nova geração da Sony.",
+    "image": "playstation-5.jpg",
+    "icon": "fa-solid fa-gamepad"
+  },
+  {
+    "year": "2020",
+    "title": "Xbox Series S/X",
+    "description": "Lançados em 2020, os Xbox Series S e Series X representam a nova geração da Microsoft. O Series X oferece desempenho máximo com gráficos em 4K, enquanto o Series S é mais acessível, totalmente digital e focado em desempenho em 1440p. Ambos contam com SSD ultrarrápido.",
+    "image": "xbox-series.jpg",
+    "icon": "fa-solid fa-gamepad"
+  },
+  {
+    "year": "2021",
+    "title": "Atari VCS (2021 console)",
+    "description": "Anunciado em 2020, o novo Atari VCS foi lançado oficialmente em junho de 2021, misturando retro e PC, mas teve desempenho abaixo dos concorrentes de nova geração.",
+    "image": "atari-vcs-2021.jpg",
+    "icon": "fa-solid fa-gamepad"
+  },
+  {
+    "year": "2022",
+    "title": "Steam Deck",
+    "description": "Handheld da Valve lançado em fevereiro de 2022, roda SteamOS e jogos de PC na palma da mão. Em 2023 ganhou versão OLED com tela superior.",
+    "image": "steam-deck.jpg",
+    "icon": "fa-solid fa-gamepad"
+  },
+  {
+    "year": "2025",
+    "title": "Nintendo Switch 2",
+    "description": "Anunciado em janeiro e lançado em junho de 2025. Mantém a proposta híbrida, agora com tela 1080p/120Hz, 4K docked e suporte a GameCube via expansão.",
+    "image": "nintendo-switch-2.jpg",
+    "icon": "fa-solid fa-gamepad"
+  }
+]
