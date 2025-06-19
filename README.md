@@ -8,7 +8,7 @@ Built with **vanilla JavaScript**, **HTML**, and **CSS**, this project displays 
 
 ## 🔗 Live Demo
 
-🌐 [timeline.jamesrmoro.me](https://timeline.jamesrmoro.me/game)
+🌐 [timeline.jamesrmoro.me/game](https://timeline.jamesrmoro.me/game)
 
 ---
 
