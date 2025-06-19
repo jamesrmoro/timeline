@@ -98,7 +98,7 @@ async function loadTimelineData() {
   const swiperOptions = {
     slidesPerView: isMobile ? 1 : 4,
     slidesPerGroup: isMobile ? 1 : 4,
-    spaceBetween: isMobile ? 0 : 20,
+    spaceBetween: isMobile ? 5 : 20,
     loop: false,
     grabCursor: true,
     scrollbar: {
