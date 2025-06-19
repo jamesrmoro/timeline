@@ -133,3 +133,45 @@ window.addEventListener("load", () => {
   document.getElementById("loader").style.display = "none";
   loadTimelineData();
 });
+
+// 🔁 BRIDGE: Preview realtime no editor visual do Storyblok
+if (window.storyblok) {
+  window.storyblok.on(['change', 'published'], () => location.reload(true));
+  window.storyblok.on('input', (event) => {
+    const content = event.story.content;
+    document.getElementById("page-title").textContent = content.title || "Untitled";
+    document.getElementById("page-description").textContent = content.description || "";
+
+    const consoles = content.consoles || [];
+    const container = document.getElementById("timeline-container");
+    container.innerHTML = ''; // limpa os slides antigos
+    const colors = generateColorPalette(consoles.length);
+
+    consoles.forEach((item, index) => {
+      const imageUrl = item.image.filename || item.image;
+      const slide = document.createElement("div");
+      slide.className = "swiper-slide";
+      slide.setAttribute("data-bg", imageUrl);
+      slide.setAttribute("data-color", colors[index]);
+      slide.style.backgroundColor = colors[index];
+      slide.style.boxShadow = `0 0 20px ${colors[index]}88`;
+      slide.innerHTML = `
+        <div class="image-wrapper">
+          <img src="${imageUrl}" alt="${item.title}">
+        </div>
+        <div class="header">
+          <img class="icon-card" src="icons/game.svg">
+          <div class="textos">
+            <div class="year">${item.year}</div>
+            <div class="title">${item.title}</div>
+          </div>
+        </div>
+        <div class="description">${item.description}</div>
+      `;
+      container.appendChild(slide);
+    });
+
+    swiper.update(); // atualiza o Swiper
+  });
+}
+
