@@ -1,5 +1,7 @@
 let swiper;
 
+const isMobile = window.innerWidth <= 480;
+
 function generateColorPalette(total) {
   const colors = [];
   const hueStart = 230;
@@ -19,7 +21,6 @@ function renderSlides(consoles) {
   const defaultImage = 'images/image-default.jpg';
 
   consoles.forEach((item, index) => {
-    // Corrigido: garante que imageUrl seja uma string válida
     let imageUrl = defaultImage;
     if (item.image) {
       if (typeof item.image === 'string') {
@@ -52,7 +53,9 @@ function renderSlides(consoles) {
     `;
 
     slide.addEventListener('mouseenter', () => {
-      document.body.style.backgroundImage = `url('${imageUrl}')`;
+      if (!isMobile) {
+        document.body.style.backgroundImage = `url('${imageUrl}')`;
+      }
       mask.style.backgroundColor = colors[index] + "77";
     });
 
@@ -61,7 +64,9 @@ function renderSlides(consoles) {
     });
 
     slide.addEventListener('click', () => {
-      document.body.style.backgroundImage = `url('${imageUrl}')`;
+      if (!isMobile) {
+        document.body.style.backgroundImage = `url('${imageUrl}')`;
+      }
       swiper.slideTo(index);
     });
 
@@ -90,8 +95,6 @@ async function loadTimelineData() {
 
   renderSlides(consoles);
 
-  const isMobile = window.innerWidth <= 480;
-
   const swiperOptions = {
     slidesPerView: isMobile ? 1 : 4,
     slidesPerGroup: isMobile ? 1 : 4,
@@ -104,12 +107,16 @@ async function loadTimelineData() {
     },
     on: {
       afterInit: function () {
-        const activeSlide = this.slides[this.activeIndex];
-        document.body.style.backgroundImage = `url('${activeSlide.getAttribute('data-bg')}')`;
+        if (!isMobile) {
+          const activeSlide = this.slides[this.activeIndex];
+          document.body.style.backgroundImage = `url('${activeSlide.getAttribute('data-bg')}')`;
+        }
       },
       slideChange: function () {
-        const activeSlide = this.slides[this.activeIndex];
-        document.body.style.backgroundImage = `url('${activeSlide.getAttribute('data-bg')}')`;
+        if (!isMobile) {
+          const activeSlide = this.slides[this.activeIndex];
+          document.body.style.backgroundImage = `url('${activeSlide.getAttribute('data-bg')}')`;
+        }
       }
     }
   };
