@@ -22,6 +22,7 @@ body {
     display: inline-block;
     width: 100%;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 h1 {
@@ -57,7 +58,6 @@ h1 {
 }
 
 .swiper {
-    padding: 20px 20px 40px 20px;
     position: relative;
     overflow: visible;
 }
@@ -202,7 +202,24 @@ h1 {
 }
 
 
-@media (max-width: 480px) {
+@media (max-width: 520px) {
+
+    .description {
+        font-size: 0.8em;
+        line-height: 19px;
+    }
+
+    body {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    #page-description {
+
+        width: 200px;
+        margin: 0 auto;
+        display: block;
+        margin-bottom: 20px;
+    }
     .swiper-slide {
         width: 260px;
         box-shadow: 0 8px 20px rgba(0,0,0,0.4);

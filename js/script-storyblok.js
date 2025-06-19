@@ -43,7 +43,7 @@ function renderSlides(consoles) {
         <img src="${imageUrl}" alt="${item.title}">
       </div>
       <div class="header">
-        <img class="icon-card" src="icons/game.svg">
+        <img class="icon-card" src="../icons/game.svg">
         <div class="textos">
           <div class="year">${item.year}</div>
           <div class="title">${item.title}</div>
