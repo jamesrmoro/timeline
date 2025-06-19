@@ -1,13 +1,14 @@
 # 🕹️ History of Game Consoles – Timeline Project
 
-A visual timeline of game consoles, powered by [Storyblok](https://www.storyblok.com/) as a headless CMS and [Swiper.js](https://swiperjs.com/) for responsive carousel navigation.  
+A visual timeline of game consoles, powered by [Storyblok](https://www.storyblok.com/) as a headless CMS and [Swiper.js](https://swiperjs.com/) for responsive carousel navigation.
+
 Built with **vanilla JavaScript**, **HTML**, and **CSS**, this project displays the evolution of video game consoles with dynamic content fully managed from the CMS.
 
 ![Demo Screenshot](https://timeline.jamesrmoro.me/images/screenshot.png)
 
 ## 🔗 Live Demo
 
-🌐 [timeline.jamesrmoro.me](https://timeline.jamesrmoro.me)
+🌐 [timeline.jamesrmoro.me](https://timeline.jamesrmoro.me/game)
 
 ---
 
@@ -33,21 +34,16 @@ Built with **vanilla JavaScript**, **HTML**, and **CSS**, this project displays 
 
 ## 📁 Project Structure
 project-root/
-│
 ├── css/
 │ ├── style.css
 │ └── swiper-bundle.min.css
-│
 ├── js/
 │ ├── script-storyblok.js
 │ └── swiper-bundle.min.js
-│
 ├── icons/
 │ └── game.svg
-│
 ├── images/
 │ └── image-default.jpg
-│
 ├── index.html
 └── README.md
 
