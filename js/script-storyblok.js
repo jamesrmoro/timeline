@@ -12,17 +12,17 @@ function generateColorPalette(total) {
 }
 
 async function loadTimelineData() {
-  const TOKEN = 'w5MnJMaLwfXAHn1qB4aMvQtt'; // 🔁 Substitua aqui
-  const SLUG = 'timeline';        // 🔁 Slug da sua página
+  const TOKEN = 'w5MnJMaLwfXAHn1qB4aMvQtt';
+  const SLUG = 'timeline';
   const VERSION = 'published';
 
   const res = await fetch(`https://api.storyblok.com/v2/cdn/stories/${SLUG}?version=${VERSION}&token=${TOKEN}`);
   const data = await res.json();
 
-  const consoles = data.story.content.items || [];
+  const consoles = data.story.content.consoles || [];
 
   if (!consoles.length) {
-    console.warn("Nenhum item encontrado em 'items'. Verifique o conteúdo no Storyblok.");
+    console.warn("Nenhum item encontrado em 'consoles'. Verifique o conteúdo no Storyblok.");
     return;
   }
 
@@ -32,9 +32,11 @@ async function loadTimelineData() {
   const colors = generateColorPalette(consoles.length);
 
   consoles.forEach((item, index) => {
+    const imageUrl = item.image.filename || item.image; // 👈 funciona com Asset ou string
+
     const slide = document.createElement("div");
     slide.className = "swiper-slide";
-    slide.setAttribute("data-bg", item.image.filename);
+    slide.setAttribute("data-bg", imageUrl);
     slide.setAttribute("data-color", colors[index]);
 
     slide.style.backgroundColor = colors[index];
@@ -42,7 +44,7 @@ async function loadTimelineData() {
 
     slide.innerHTML = `
       <div class="image-wrapper">
-        <img src="${item.image.filename}" alt="${item.title}">
+        <img src="${imageUrl}" alt="${item.title}">
       </div>
       <div class="header">
         <img class="icon-card" src="icons/game.svg">
@@ -55,7 +57,7 @@ async function loadTimelineData() {
     `;
 
     slide.addEventListener('mouseenter', () => {
-      document.body.style.backgroundImage = `url('${item.image.filename}')`;
+      document.body.style.backgroundImage = `url('${imageUrl}')`;
       mask.style.backgroundColor = colors[index] + "77";
     });
 
@@ -64,7 +66,7 @@ async function loadTimelineData() {
     });
 
     slide.addEventListener('click', () => {
-      document.body.style.backgroundImage = `url('${item.image.filename}')`;
+      document.body.style.backgroundImage = `url('${imageUrl}')`;
       swiper.slideTo(index);
     });
 
@@ -113,22 +115,10 @@ async function loadTimelineData() {
       sensitivity: 1
     };
     swiperOptions.breakpoints = {
-      0: {
-        slidesPerView: 1,
-        slidesPerGroup: 1
-      },
-      480: {
-        slidesPerView: 2,
-        slidesPerGroup: 1
-      },
-      768: {
-        slidesPerView: 3,
-        slidesPerGroup: 1
-      },
-      1024: {
-        slidesPerView: 4,
-        slidesPerGroup: 4
-      }
+      0: { slidesPerView: 1, slidesPerGroup: 1 },
+      480: { slidesPerView: 2, slidesPerGroup: 1 },
+      768: { slidesPerView: 3, slidesPerGroup: 1 },
+      1024: { slidesPerView: 4, slidesPerGroup: 4 }
     };
   }
 
