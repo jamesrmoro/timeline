@@ -17,6 +17,13 @@ body {
     transition: background-image 0.8s ease-in-out;
 }
 
+#page-description {
+
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
 h1 {
     text-align: center;
     font-size: 2.5em;
