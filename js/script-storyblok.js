@@ -93,35 +93,46 @@ async function loadTimelineData() {
     return;
   }
 
+  // Destroi o Swiper anterior, se existir
+  if (swiper && swiper.destroy) {
+    swiper.destroy(true, true);
+  }
+
+  // Renderiza os slides
   renderSlides(consoles);
 
-  const swiperOptions = {
-    slidesPerView: isMobile ? 1 : 4,
-    slidesPerGroup: isMobile ? 1 : 4,
-    spaceBetween: isMobile ? 5 : 20,
-    loop: false,
-    grabCursor: true,
-    scrollbar: {
-      el: ".swiper-scrollbar",
-      draggable: true
-    },
-    on: {
-      afterInit: function () {
-        if (!isMobile) {
-          const activeSlide = this.slides[this.activeIndex];
-          document.body.style.backgroundImage = `url('${activeSlide.getAttribute('data-bg')}')`;
-        }
+  // Aguarda DOM atualizar e então instancia o Swiper
+  requestAnimationFrame(() => {
+    swiper = new Swiper(".swiper", {
+      slidesPerView: isMobile ? 1 : 4,
+      slidesPerGroup: isMobile ? 1 : 4,
+      spaceBetween: isMobile ? 5 : 20,
+      loop: false,
+      grabCursor: true,
+      scrollbar: {
+        el: ".swiper-scrollbar",
+        draggable: true
       },
-      slideChange: function () {
-        if (!isMobile) {
-          const activeSlide = this.slides[this.activeIndex];
-          document.body.style.backgroundImage = `url('${activeSlide.getAttribute('data-bg')}')`;
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev"
+      },
+      on: {
+        afterInit: function () {
+          if (!isMobile) {
+            const activeSlide = this.slides[this.activeIndex];
+            document.body.style.backgroundImage = `url('${activeSlide.getAttribute('data-bg')}')`;
+          }
+        },
+        slideChange: function () {
+          if (!isMobile) {
+            const activeSlide = this.slides[this.activeIndex];
+            document.body.style.backgroundImage = `url('${activeSlide.getAttribute('data-bg')}')`;
+          }
         }
       }
-    }
-  };
-
-  swiper = new Swiper(".swiper", swiperOptions);
+    });
+  });
 }
 
 window.addEventListener("load", () => {
@@ -141,6 +152,25 @@ if (typeof StoryblokBridge !== "undefined") {
 
     const consoles = content.consoles || [];
     renderSlides(consoles);
-    swiper.update();
+
+    // Reinstancia o Swiper após input do Storyblok
+    requestAnimationFrame(() => {
+      if (swiper && swiper.destroy) swiper.destroy(true, true);
+      swiper = new Swiper(".swiper", {
+        slidesPerView: isMobile ? 1 : 4,
+        slidesPerGroup: isMobile ? 1 : 4,
+        spaceBetween: isMobile ? 5 : 20,
+        loop: false,
+        grabCursor: true,
+        scrollbar: {
+          el: ".swiper-scrollbar",
+          draggable: true
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev"
+        }
+      });
+    });
   });
 }
