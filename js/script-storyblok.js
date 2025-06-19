@@ -19,7 +19,11 @@ async function loadTimelineData() {
   const res = await fetch(`https://api.storyblok.com/v2/cdn/stories/${SLUG}?version=${VERSION}&token=${TOKEN}`);
   const data = await res.json();
 
-  const consoles = data.story.content.consoles || [];
+  const content = data.story.content;
+  const consoles = content.consoles || [];
+
+  document.getElementById("page-title").textContent = content.title || "Sem título";
+document.getElementById("page-description").textContent = content.description || "";
 
   if (!consoles.length) {
     console.warn("Nenhum item encontrado em 'consoles'. Verifique o conteúdo no Storyblok.");
