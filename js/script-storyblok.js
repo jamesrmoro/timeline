@@ -11,32 +11,14 @@ function generateColorPalette(total) {
   return colors;
 }
 
-async function loadTimelineData() {
-  const TOKEN = 'w5MnJMaLwfXAHn1qB4aMvQtt';
-  const SLUG = 'timeline';
-  const VERSION = 'draft';
-
-  const res = await fetch(`https://api.storyblok.com/v2/cdn/stories/${SLUG}?version=${VERSION}&token=${TOKEN}`);
-  const data = await res.json();
-
-  const content = data.story.content;
-  const consoles = content.consoles || [];
-
-  document.getElementById("page-title").textContent = content.title || "Sem título";
-document.getElementById("page-description").textContent = content.description || "";
-
-  if (!consoles.length) {
-    console.warn("Nenhum item encontrado em 'consoles'. Verifique o conteúdo no Storyblok.");
-    return;
-  }
-
+function renderSlides(consoles) {
   const container = document.getElementById("timeline-container");
   const mask = document.querySelector(".mask");
-
+  container.innerHTML = '';
   const colors = generateColorPalette(consoles.length);
 
   consoles.forEach((item, index) => {
-    const imageUrl = item.image.filename || item.image; // 👈 funciona com Asset ou string
+    const imageUrl = item.image.filename || item.image;
 
     const slide = document.createElement("div");
     slide.className = "swiper-slide";
@@ -76,6 +58,28 @@ document.getElementById("page-description").textContent = content.description ||
 
     container.appendChild(slide);
   });
+}
+
+async function loadTimelineData() {
+  const TOKEN = 'w5MnJMaLwfXAHn1qB4aMvQtt';
+  const SLUG = 'timeline';
+  const VERSION = 'draft';
+
+  const res = await fetch(`https://api.storyblok.com/v2/cdn/stories/${SLUG}?version=${VERSION}&token=${TOKEN}`);
+  const data = await res.json();
+
+  const content = data.story.content;
+  const consoles = content.consoles || [];
+
+  document.getElementById("page-title").textContent = content.title || "Sem título";
+  document.getElementById("page-description").textContent = content.description || "";
+
+  if (!consoles.length) {
+    console.warn("Nenhum item encontrado em 'consoles'. Verifique o conteúdo no Storyblok.");
+    return;
+  }
+
+  renderSlides(consoles);
 
   const isMobile = window.innerWidth <= 480;
 
@@ -146,35 +150,7 @@ if (typeof StoryblokBridge !== "undefined") {
     document.getElementById("page-description").textContent = content.description || "";
 
     const consoles = content.consoles || [];
-    const container = document.getElementById("timeline-container");
-    container.innerHTML = '';
-    const colors = generateColorPalette(consoles.length);
-
-    consoles.forEach((item, index) => {
-      const imageUrl = item.image.filename || item.image;
-      const slide = document.createElement("div");
-      slide.className = "swiper-slide";
-      slide.setAttribute("data-bg", imageUrl);
-      slide.setAttribute("data-color", colors[index]);
-      slide.style.backgroundColor = colors[index];
-      slide.style.boxShadow = `0 0 20px ${colors[index]}88`;
-      slide.innerHTML = `
-        <div class="image-wrapper">
-          <img src="${imageUrl}" alt="${item.title}">
-        </div>
-        <div class="header">
-          <img class="icon-card" src="icons/game.svg">
-          <div class="textos">
-            <div class="year">${item.year}</div>
-            <div class="title">${item.title}</div>
-          </div>
-        </div>
-        <div class="description">${item.description}</div>
-      `;
-      container.appendChild(slide);
-    });
-
+    renderSlides(consoles);
     swiper.update();
   });
 }
-
