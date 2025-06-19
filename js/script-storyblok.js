@@ -135,16 +135,19 @@ window.addEventListener("load", () => {
 });
 
 // 🔁 BRIDGE: Preview realtime no editor visual do Storyblok
-if (window.storyblok) {
-  window.storyblok.on(['change', 'published'], () => location.reload(true));
-  window.storyblok.on('input', (event) => {
+if (typeof StoryblokBridge !== "undefined") {
+  const storyblokBridge = new StoryblokBridge();
+
+  storyblokBridge.on(['change', 'published'], () => location.reload(true));
+
+  storyblokBridge.on('input', (event) => {
     const content = event.story.content;
     document.getElementById("page-title").textContent = content.title || "Untitled";
     document.getElementById("page-description").textContent = content.description || "";
 
     const consoles = content.consoles || [];
     const container = document.getElementById("timeline-container");
-    container.innerHTML = ''; // limpa os slides antigos
+    container.innerHTML = '';
     const colors = generateColorPalette(consoles.length);
 
     consoles.forEach((item, index) => {
@@ -171,7 +174,7 @@ if (window.storyblok) {
       container.appendChild(slide);
     });
 
-    swiper.update(); // atualiza o Swiper
+    swiper.update();
   });
 }
 
