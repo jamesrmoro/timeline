@@ -3,24 +3,73 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>History of Game Consoles</title>
-    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="css/style.css">
-</head>
+    <title>Dev.to Challenge - Storyblok Project</title>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-356GJ1VDJM"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-356GJ1VDJM', {
+            'send_page_view': true,
+            'page_path': location.pathname,
+            'page_location': location.href,
+            'page_title': document.title
+        });
+    </script>
+  <style>
+    * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+    body {
+        font-family: Arial, sans-serif;
+        background: #f9f9f9;
+        color: #333;
+        text-align: center;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
 
+    h1 {
+      color: #2c3e50;
+    }
+
+    p {
+      font-size: 1.2rem;
+      max-width: 600px;
+      margin: 20px auto;
+      line-height: 1.6;
+    }
+
+    a {
+      color: #1e90ff;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
 <body>
-    <div id="loader"></div>
-    <h1>History of Game Consoles</h1>
-    <div class="swiper">
-        <div class="swiper-wrapper" id="timeline-container"></div>
-        <div class="fixed-scrollbar">
-            <div class="swiper-scrollbar"></div>
-        </div>
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
+    <div>
+        <h1>Storyblok Timeline</h1>
+        <p>
+        This project is a submission for the <strong><a href="https://dev.to/challenges/storyblok" target="_blank">Dev.to Storyblok Challenge</a></strong>.
+        </p>
+        <p>
+        It demonstrates how to build a dynamic and responsive timeline powered by <strong>Storyblok</strong> as a headless CMS, with no backend required.
+        </p>
+        <p>
+        All content is fetched in real-time and can be updated instantly without touching the code.
+        </p>
+        <p>
+        Created by James Moro.
+        </p>
     </div>
-    <div class="mask"></div>
-    <script src="js/swiper-bundle.min.js"></script>
-    <script src="js/script.js"></script>
 </body>
 </html>
