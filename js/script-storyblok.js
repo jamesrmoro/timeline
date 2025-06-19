@@ -1,6 +1,6 @@
 let swiper;
 
-const isMobile = window.innerWidth <= 480;
+const isMobile = window.innerWidth <= 520;
 
 function generateColorPalette(total) {
   const colors = [];
