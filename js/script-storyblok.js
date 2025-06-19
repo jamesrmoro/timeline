@@ -16,7 +16,7 @@ function renderSlides(consoles) {
   const mask = document.querySelector(".mask");
   container.innerHTML = '';
   const colors = generateColorPalette(consoles.length);
-  const defaultImage = 'images/default.jpg';
+  const defaultImage = 'images/image-default.jpg';
 
   consoles.forEach((item, index) => {
     // Corrigido: garante que imageUrl seja uma string válida
