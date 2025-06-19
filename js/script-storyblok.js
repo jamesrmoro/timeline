@@ -121,31 +121,6 @@ async function loadTimelineData() {
     }
   };
 
-  if (isMobile) {
-    swiperOptions.effect = 'cards';
-    swiperOptions.cardsEffect = {
-      perSlideRotate: 5,
-      perSlideOffset: 8,
-      rotate: true,
-      slideShadows: false
-    };
-  } else {
-    swiperOptions.navigation = {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    };
-    swiperOptions.mousewheel = {
-      forceToAxis: true,
-      sensitivity: 1
-    };
-    swiperOptions.breakpoints = {
-      0: { slidesPerView: 1, slidesPerGroup: 1 },
-      480: { slidesPerView: 2, slidesPerGroup: 1 },
-      768: { slidesPerView: 3, slidesPerGroup: 1 },
-      1024: { slidesPerView: 4, slidesPerGroup: 4 }
-    };
-  }
-
   swiper = new Swiper(".swiper", swiperOptions);
 }
 
