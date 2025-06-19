@@ -14,7 +14,7 @@ function generateColorPalette(total) {
 async function loadTimelineData() {
   const TOKEN = 'w5MnJMaLwfXAHn1qB4aMvQtt';
   const SLUG = 'timeline';
-  const VERSION = 'published';
+  const VERSION = 'draft';
 
   const res = await fetch(`https://api.storyblok.com/v2/cdn/stories/${SLUG}?version=${VERSION}&token=${TOKEN}`);
   const data = await res.json();
