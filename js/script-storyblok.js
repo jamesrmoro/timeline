@@ -16,9 +16,10 @@ function renderSlides(consoles) {
   const mask = document.querySelector(".mask");
   container.innerHTML = '';
   const colors = generateColorPalette(consoles.length);
+  const defaultImage = 'images/default.jpg';
 
   consoles.forEach((item, index) => {
-    const imageUrl = item.image.filename || item.image;
+    const imageUrl = (item.image && (item.image.filename || item.image)) || defaultImage;
 
     const slide = document.createElement("div");
     slide.className = "swiper-slide";
@@ -138,7 +139,6 @@ window.addEventListener("load", () => {
   loadTimelineData();
 });
 
-// 🔁 BRIDGE: Preview realtime no editor visual do Storyblok
 if (typeof StoryblokBridge !== "undefined") {
   const storyblokBridge = new StoryblokBridge();
 
