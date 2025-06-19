@@ -19,7 +19,15 @@ function renderSlides(consoles) {
   const defaultImage = 'images/default.jpg';
 
   consoles.forEach((item, index) => {
-    const imageUrl = (item.image && (item.image.filename || item.image)) || defaultImage;
+    // Corrigido: garante que imageUrl seja uma string válida
+    let imageUrl = defaultImage;
+    if (item.image) {
+      if (typeof item.image === 'string') {
+        imageUrl = item.image;
+      } else if (item.image.filename) {
+        imageUrl = item.image.filename;
+      }
+    }
 
     const slide = document.createElement("div");
     slide.className = "swiper-slide";
