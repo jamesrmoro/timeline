@@ -33,6 +33,7 @@ Built with **vanilla JavaScript**, **HTML**, and **CSS**, this project displays 
 ---
 
 ## 📁 Project Structure
+```
 project-root/
 ├── css/
 │ ├── style.css
@@ -46,7 +47,7 @@ project-root/
 │ └── image-default.jpg
 ├── index.html
 └── README.md
-
+```
 ---
 
 ## 🧩 Storyblok Integration
